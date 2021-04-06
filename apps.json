@@ -62,6 +62,19 @@
       {"name":"clock.img","url":"clock-icon.js","evaluate":true }
     ]
   },
+  { "id": "notify",
+    "name": "Notifications (default)",
+    "shortName":"Notifications",
+    "icon": "notify.png",
+    "version":"0.07",
+    "description": "A handler for displaying notifications that displays them in a bar at the top of the screen",
+    "tags": "widget",
+    "type": "notify",
+    "readme": "README.md",
+    "storage": [
+      {"name":"notify","url":"notify.js"}
+    ]
+  },
   { "id": "life",
     "name": "Life",
     "icon": "life.png",
