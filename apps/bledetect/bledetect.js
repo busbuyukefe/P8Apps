@@ -6,7 +6,7 @@ let menu = {
 };
 
 function showMainMenu() {
-  menu["< Back"] =  () => load();
+  menu["< Back"] =  () => load("launch.js");
   return E.showMenu(menu);
 }
 
