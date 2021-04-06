@@ -267,6 +267,18 @@
     ],
     "sortorder" : 10
   },
+  {
+    "id": "blescan",
+    "name": "BLE Scanner",
+    "icon": "blescan.png",
+    "version":"0.01",
+    "description": "Scan for advertising BLE devices",
+    "tags" : "bluetooth",
+    "storage" : [
+      {"name":"blescan.app.js","url":"blescan.js"},
+      {"name":"blescan.img","url":"blescan-icon.js", "evaluate":true}
+    ]
+  },
   { "id": "clotris",
     "name": "Tetris",
     "icon": "clock-tris.png",
