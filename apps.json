@@ -121,6 +121,22 @@
       {"name":"widbat.wid.js","url":"widget.js"}
     ]
   },
+  { "id": "widbatpc",
+    "name": "Battery Level Widget (with percentage)",
+    "shortName": "Battery Widget",
+    "icon": "widget.png",
+    "version":"0.11",
+    "description": "Show the current battery level and charging status in the top right of the clock, with charge percentage",
+    "tags": "widget,battery",
+    "type":"widget",
+    "storage": [
+      {"name":"widbatpc.wid.js","url":"widget.js"},
+      {"name":"widbatpc.settings.js","url":"settings.js"}
+    ],
+    "data": [
+      {"name":"widbatpc.json"}
+    ]
+  },
   { "id": "widram",
     "name": "RAM Widget",
     "shortName":"RAM Widget",
