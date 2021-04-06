@@ -62,6 +62,20 @@
       {"name":"clock.img","url":"clock-icon.js","evaluate":true }
     ]
   },
+  { "id": "cliock",
+    "name": "Commandline-Clock",
+    "shortName":"CLI-Clock",
+    "icon": "app.png",
+    "version":"0.11",
+    "description": "Simple CLI-Styled Clock",
+    "tags": "clock,cli,command,bash,shell",
+    "type":"clock",
+    "allow_emulator":true,
+    "storage": [
+      {"name":"cliock.app.js","url":"app.js"},
+      {"name":"cliock.img","url":"app-icon.js","evaluate":true}
+    ]
+  },
   { "id": "notify",
     "name": "Notifications (default)",
     "shortName":"Notifications",

@@ -75,7 +75,7 @@ function ST7789() {
         });
         g.lcd_sleep = function(){cmd(0x10);cmd(0x28);};
         g.lcd_wake = function(){cmd(0x29);cmd(0x11);};
-        dispinit(rst, ()=>{g.clear().setFont("Vector",24).drawString("P8 Expruino",40,100);});
+        dispinit(rst, ()=>{g.clear().setFont("Vector",24).drawString("loading...",10,40).setFont("Vector",12).drawString("press the button",10,70).drawString("if it took more",10,85).drawString("than a second.",10,100);});
         return g;
     }
 
