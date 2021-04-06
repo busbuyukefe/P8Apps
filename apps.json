@@ -75,6 +75,20 @@
       {"name":"notify","url":"notify.js"}
     ]
   },
+  { "id": "locale",
+    "name": "Languages",
+    "icon": "locale.png",
+    "version":"0.09",
+    "description": "Translations for different countries",
+    "tags": "tool,system,locale,translate",
+    "type": "locale",
+    "custom":"locale.html",
+    "readme": "README.md",
+    "storage": [
+      {"name":"locale"}
+    ],
+    "sortorder" : -10
+  },
   { "id": "life",
     "name": "Life",
     "icon": "life.png",
@@ -148,6 +162,24 @@
     ],
     "data": [
       {"name":"widbatpc.json"}
+    ]
+  },
+  { "id": "gbridge",
+    "name": "Gadgetbridge",
+    "icon": "app.png",
+    "version":"0.21",
+    "description": "The default notification handler for Gadgetbridge notifications from Android",
+    "tags": "tool,system,android,widget",
+    "readme": "README.md",
+    "type":"widget",
+    "dependencies": { "notify":"type" },
+    "storage": [
+      {"name":"gbridge.settings.js","url":"settings.js"},
+      {"name":"gbridge.img","url":"app-icon.js","evaluate":true},
+      {"name":"gbridge.wid.js","url":"widget.js"}
+    ],
+    "data": [
+      {"name":"gbridge.json"}
     ]
   },
   { "id": "widram",
