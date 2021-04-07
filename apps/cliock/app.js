@@ -39,9 +39,11 @@ function updateTime(){
   let now = new Date();
   let h = now.getHours();
   let m = now.getMinutes();
+  let s = now.getSeconds();
   h = h>=10?h:"0"+h;
   m = m>=10?m:"0"+m;
-  writeLine(h+":"+m,0);
+  s = s>=10?s:"0"+s;
+  writeLine(h+":"+m+":"+s,0);
   writeLine(flag?" ":"_",3);
   flag = !flag;
   if(now.getMinutes() == 0)
@@ -183,7 +185,7 @@ function stepsWidget() {
 
 TC.on('swipe',(dir)=>{
     if (dir ==TC.RIGHT) ; 
-    else if (dir == TC.LEFT) load("launch.js");
+    else if (dir == TC.UP) load("launch.js");
 });
 //Bangle.on('HRM', function(hrm) {
 //  if(hrm.confidence > 90){

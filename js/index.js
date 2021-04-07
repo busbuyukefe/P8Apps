@@ -3,7 +3,7 @@ var appsInstalled = []; // list of app JSON
 var files = []; // list of files on Bangle
 var DEFAULTSETTINGS = {
   pretokenise : true,
-  favourites : ["boot","launch","setting"]
+  favourites : ["boot","launch","setting","cliock"]
 };
 var SETTINGS = JSON.parse(JSON.stringify(DEFAULTSETTINGS)); // clone
 

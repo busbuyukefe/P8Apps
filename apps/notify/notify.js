@@ -126,7 +126,7 @@ exports.show = function(options) {
     options.render({x:x, y:y, w:w, h:h});
   }
 
-  if (options.on) P8.wake; // light up
+  if (options.on) P8.wake(); // light up
   // Bangle.setLCDMode(oldMode); // clears cliprect
   
   function anim() {
